@@ -7,5 +7,9 @@ class Waiter
     @yrs_exp = yrs_exp
     @@all.push(self)
   end 
+  
+  def self.all
+    @@all
+  end 
 
 end
