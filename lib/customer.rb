@@ -21,6 +21,6 @@ class Customer
   end 
   
   def waiters
-    self.meals {|meal| meal.waiter.name}
+    self.meals {|meal| puts meal.waiter.name}
   end 
 end
