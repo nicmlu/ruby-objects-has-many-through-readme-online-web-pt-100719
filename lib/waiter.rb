@@ -21,6 +21,6 @@ class Waiter
   end 
   
   def best_tipper
-    Customer.
+    best_tipper = 
   end 
 end
